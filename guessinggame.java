@@ -1,7 +1,7 @@
 import java.util.Random;
 import java.util.Scanner;
 
-public class GuessingGame {
+public class guessinggame {
     private int level;
     private int score;
     private int maxNumber;
@@ -9,7 +9,7 @@ public class GuessingGame {
     private Scanner scanner;
     private Random random;
 
-    public GuessingGame() {
+    public guessinggame() {
         this.level = 1;
         this.score = 0;
         this.scanner = new Scanner(System.in);
@@ -68,7 +68,7 @@ public class GuessingGame {
     }
 
     public static void main(String[] args) {
-        GuessingGame game = new GuessingGame();
+        guessinggame game = new guessinggame();
         game.play();
     }
 }
